@@ -1,0 +1,105 @@
+{{ define "main" }}
+
+<!-- ヒーローセクション -->
+<div class="py-5 mb-4 bg-primary text-white rounded-3">
+  <div class="container">
+　　<h1 class="display-4 fw-bold mb-3">システム管理部</h1>
+  </div>
+</div>
+
+<div class="container">
+
+
+  <!-- 主なメニュー -->
+  <h2 class="h3 mb-3">知能情報コースの主なメニュー</h2>
+
+  <div class="row g-4 mb-5">
+
+    <!-- 役立つ情報 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">💡</div>
+          <h5 class="card-title mb-2">役立つ情報</h5>
+          <p class="card-text text-muted">学生生活に便利な情報まとめ</p>
+          <a href="/useful/" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 在学生向け -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">✏️</div>
+          <h5 class="card-title mb-2">在学生向け</h5>
+          <p class="card-text text-muted">在学生向けの情報</p>
+          <a href="/students/" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 活動 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">📁</div>
+          <h5 class="card-title mb-2">活動</h5>
+          <p class="card-text text-muted">システム管理部の活動</p>
+          <a href="/activity/" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- サービス -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">📱</div>
+          <h5 class="card-title mb-2">サービス</h5>
+          <p class="card-text text-muted">利用できる学科システムのサービス</p>
+          <a href="/systems/" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- お問い合わせ -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">🎧</div>
+          <h5 class="card-title mb-2">お問い合わせ</h5>
+          <p class="card-text text-muted">システム管理部へのお問い合わせ方法</p>
+          <a href="/contact/" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- システム構成 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 text-center py-4">
+        <div class="card-body">
+          <div class="mb-3" style="font-size: 2.5rem;">🎛️</div>
+          <h5 class="card-title mb-2">システム構成</h5>
+          <p class="card-text text-muted">学科システムのサーバや機器の構成</p>
+          <a href="/systems/#structure" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- row end -->
+
+  <!-- FAQ への導線 -->
+  <div class="text-center py-5 border-top">
+    <h2 class="h4 mb-3">分からないことがあったら</h2>
+    <p class="mb-3">
+      「よくある質問」をまとめています。<br>
+      それでも解決しない場合は、授業担当の教員や TA に相談してください。
+    </p>
+    <a href="/faq/" class="btn btn-secondary btn-lg">FAQ を見る</a>
+  </div>
+
+</div>
+
+{{ end }}
+

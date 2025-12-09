@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja-jp'
+title = '知能情報コースの説明ページ'
+theme = 'hugo-bootstrap-theme'
+
+[menu]
+  [[menu.main]]
+    name   = 'システム一覧'
+    url    = '/systems/'
+    weight = 1
+
+  [[menu.main]]
+    name   = '使い方ガイド'
+    url    = '/usage/'
+    weight = 2
+
+  [[menu.main]]
+    name   = 'トラブル時'
+    url    = '/trouble/'
+    weight = 3
+
+  [[menu.main]]
+    name   = '自習室・設備'
+    url    = '/rooms/'
+    weight = 4
+
+  [[menu.main]]
+    name   = 'FAQ'
+    url    = '/faq/'
+    weight = 5
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+
